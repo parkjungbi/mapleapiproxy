@@ -20,3 +20,6 @@ def get_character(nickname):
         "image": res.get("character_image"),
         "power_score": res.get("stat_main", 0) + res.get("stat_sub", 0)
     })
+
+if __name__ == "__main__":
+    app.run()
